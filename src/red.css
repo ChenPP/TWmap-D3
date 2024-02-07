@@ -1,0 +1,13 @@
+.county {
+  fill: #ebf0e4;
+  stroke: gray;
+  stroke-width: 0.1px;
+}
+
+.county:hover {
+  fill: lightgray;
+}
+
+body {
+  background: lightblue;
+}

@@ -1,0 +1,54 @@
+.background {
+  fill: #030a23;
+  pointer-events: all;
+}
+
+#counts { 
+  stroke: #A9ADB2;
+  stroke-linejoin: round;
+  stroke-width: 0.3px;
+}
+
+#counts .active {
+  transform: translate(-1.5px, -1.5px);
+  fill: none;
+}
+
+.town-boundary {
+  stroke: #8c9df2;
+  stroke-linejoin: round;
+  stroke-width: 0.2px;
+}
+
+.town-boundary:hover {
+  stroke: #59F8CB;
+  transform: translateY(-1px);
+}
+.county:hover {
+  stroke: rgba(14, 253, 221, 0.7);
+}
+
+.custom_tooltip {
+  position: absolute;
+  text-align: left;
+  width: 300px;
+  padding: 10px;
+  font: 10px;
+  color: white;
+  border: 1px solid dimgray;
+  border-radius: 3px;
+  pointer-events: none;
+}
+
+.tooltip_title {
+  margin: 0 0 0.5rem 0;
+}
+
+.cursor-position {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background-color: white;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
